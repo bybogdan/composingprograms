@@ -52,3 +52,20 @@ def reduce(reduce_fn, s, initial):
 
 reduce(mul, [2, 4, 8], 1) # 64
 ```
+
+**Membership Testing.**
+
+```python
+digits = [1, 8, 2, 8]
+print(8 in digits) # True
+print(100 not in digits) # True
+```
+
+**Slicing.**
+
+```python
+digits = [1, 8, 2, 8]
+print(digits[1:3]) # [8, 2]
+print(digits[2:]) # [2, 8]
+print(digits[:3]) # [1, 8, 2]
+```
